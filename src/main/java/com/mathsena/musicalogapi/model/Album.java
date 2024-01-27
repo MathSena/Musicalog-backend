@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
 
-@Document(collection = "albums")
+@Document
 @Data
 public class Album implements Serializable {
 
